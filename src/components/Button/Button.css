@@ -1,0 +1,8 @@
+.phrase__btn{
+    width:90px;
+    color: #727272;
+    display: flex;
+    justify-content:center;
+    position:absolute;
+    top:90px;
+}

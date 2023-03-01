@@ -1,0 +1,120 @@
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Fredoka", sans-serif;
+      
+  }
+  body .phrase__container-data  {
+    position: absolute;
+      left: 335px;
+      top: 200px;
+      
+  }
+  body .phrase__data{
+    
+    background: #ffffff;
+    box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+    font-family: "Fredoka";
+    font-style: normal;
+    color: #727272;
+  }
+  @media (min-width: 320px){
+    .phrase__container{
+      max-width:500px;
+      width:400px;
+      height:200px;
+    }
+    .phrase__container-data {
+      position: absolute;
+      left: 335px;
+      top: 200px;
+    }
+    .phrase__container-data h1 {
+    
+      left: 250px;
+      display: flex;
+      justify-content: center;
+    }
+    .phrase__title {
+      color: white;
+      text-align: center;
+      font-size:16px;
+    }
+    .phrase__data {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 400px;
+      margin-left: 10px;
+      height: 145.65px;
+      background: #ffffff;
+      box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+      font-family: "Fredoka";
+      font-style: normal;
+      color: #727272;
+      border-radius: 10px 35px;
+    }
+    .phrase__text {
+      width: 300px;
+      font-size: 16px;
+     
+    }
+    .phrase__vector {
+      position: absolute;
+      width:28px;
+      height:25px;
+      bottom: 7px;
+      right: 7px;
+    }
+
+  }
+ 
+  @media (min-width: 768px){
+    .phrase__container-data {
+      position: absolute;
+      left: 335px;
+      top: 200px;
+    }
+    .phrase__container-data h1 {
+      left: 250px;
+      display: flex;
+      justify-content: center;
+    }
+    .phrase__title {
+      color: white;
+      text-align: center;
+    }
+    .phrase__data {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 530px;
+      margin-left: 10px;
+      height: 145.65px;
+      background: #ffffff;
+      box-shadow: 12px 12px 1px rgba(0, 0, 0, 0.13);
+      font-family: "Fredoka";
+      font-style: normal;
+      color: #727272;
+      border-radius: 10px 35px;
+    }
+    .phrase__text {
+      width: 300px;
+    }
+    .phrase__vector {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+  
+
+
+
