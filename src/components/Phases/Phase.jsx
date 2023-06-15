@@ -5,9 +5,10 @@ import "../Phases/Phrase.css";
 import vector from "../../assets/fortuna-2/Vector.png";
 
 const Phase = ({ dataPhrase, changePhrase }) => {
+  
   return (
     <>
-      <section className="phrase__container">
+      <section className="phrase__container" >
         <img className="image__phrase" src={dataPhrase.imagen} />
         <div className="phrase__container-data">
           <h1 className="phrase__title">FORTUNE PHRASE</h1>
